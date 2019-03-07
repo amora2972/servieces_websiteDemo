@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  position: relative;
+  background: #fff; }
+
+.navbar {
+  background: transparent !important;
+  padding: 20px !important; }
+  .navbar .dropdown-menu a {
+    color: #000 !important; }
+  .navbar a {
+    color: #fff !important; }
+    .navbar a:hover {
+      color: #EDCD1F !important; }
+
+.header {
+  background: url("../images/soapHeader.jpg");
+  height: 100vh !important;
+  width: 100%;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  position: relative;
+  top: 0;
+  left: 0;
+  color: white; }
+  .header .overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  .header .body-header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }
+  .header .btn {
+    background-color: #3B3A3A;
+    border: 0px solid black;
+    border-radius: 0px;
+    margin-top: 10px; }
+  .header a {
+    color: #EDCD1F; }
+    .header a:hover {
+      background-color: #EDCD1F;
+      color: black; }
+  .header h1 {
+    cursor: pointer;
+    text-align: center;
+    width: 600px; }
+    .header h1:hover {
+      color: #EDCD1F; }
+
+@media only screen and (max-width: 768px) {
+  .header h1 {
+    width: 300px;
+    font-size: 25px; } }
+.product {
+  position: relative;
+  margin-top: 60px; }
+
+.products {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  font-family: sans-serif;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  overflow: hidden; }
+  .products:hover .details {
+    bottom: 0;
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.25); }
+  .products .imageBox {
+    height: 100%;
+    box-sizing: border-box; }
+    .products .imageBox img {
+      display: block;
+      width: 90%;
+      margin: 20px auto; }
+  .products .details {
+    position: absolute;
+    width: 100%;
+    bottom: -169px;
+    background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    transition: .9s; }
+    .products .details h2 {
+      margin: 0;
+      padding: 0;
+      font-size: 16px;
+      width: 100%; }
+      .products .details h2 span {
+        font-size: 12px;
+        color: #ccc;
+        font-weight: normal; }
+    .products .details .price {
+      position: absolute;
+      top: 10;
+      right: 20px;
+      font-weight: bold;
+      color: #ff4faf;
+      font-size: 20px; }
+  .products label {
+    display: block;
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 14px; }
+  .products ul {
+    display: flex;
+    margin: 0;
+    padding: 0; }
+    .products ul li {
+      list-style: none;
+      margin: 5px 5px 0;
+      font-size: 12px;
+      font-weight: normal;
+      color: #ccc; }
+      .products ul li:first-child {
+        margin-left: 0; }
+  .products ul.colors li {
+    width: 16px;
+    height: 16px; }
+    .products ul.colors li:nth-child(1) {
+      background: #ff0; }
+    .products ul.colors li:nth-child(2) {
+      background: #F0F; }
+    .products ul.colors li:nth-child(3) {
+      background: #f00; }
+    .products ul.colors li:nth-child(4) {
+      background: #0ff; }
+    .products ul.colors li:nth-child(5) {
+      background: #00f; }
+  .products a {
+    display: block;
+    padding: 5px;
+    color: #fff;
+    margin: 15px 0 0;
+    background: #ff4faf;
+    text-align: center;
+    text-decoration: none;
+    transition: .3;
+    cursor: pointer; }
+    .products a:hover {
+      color: #fff;
+      background: #ff209a; }
+
+/*# sourceMappingURL=soap.css.map */
